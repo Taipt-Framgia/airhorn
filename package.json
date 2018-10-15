@@ -35,5 +35,8 @@
   "bugs": {
     "url": "https://github.com/GoogleChrome/airhorn/issues"
   },
-  "homepage": "https://github.com/GoogleChrome/airhorn#readme"
+  "homepage": "https://github.com/GoogleChrome/airhorn#readme",
+  "scripts": {
+    "start": "cd app && python -m SimpleHTTPServer 3000"
+  },
 }
